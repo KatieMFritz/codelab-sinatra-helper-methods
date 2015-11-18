@@ -1,0 +1,14 @@
+
+// http://getbootstrap.com/customize/#less-variables
+
+// These styles are imported from Bootstrap.
+@import 'bootstrap';
+
+// These styles customize the site after bootstrap
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
