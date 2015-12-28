@@ -24,9 +24,9 @@ class MyWebApp < Sinatra::Base
 
     def icon_button(icon, message='', type='default')
       %(
-	      <button type="#{type}" class="btn btn-default" aria-label="Left Align">
-	        <span class="glyphicon glyphicon-#{icon}" aria-hidden="true">#{message}</span>
-	      </button>
+        <button type="#{type}" class="btn btn-default" aria-label="Left Align">
+          <span class="glyphicon glyphicon-#{icon}" aria-hidden="true">#{message}</span>
+        </button>
       )
     end
 
